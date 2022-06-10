@@ -1,4 +1,6 @@
+// ====================== //
 // ===== Exercice 1 ===== //
+// ====================== //
 /* Écrire un algorithme permettant de faire la somme des N premiers
 entiers. La fonction demandée prend en entrée un nombre entier, N, et
 renvoie un autre nombre entier, la somme demandée.*/
@@ -18,7 +20,9 @@ function sommeEntiers2(number) {
   somme = 0;
 }
 
+// ====================== //
 // ===== Exercice 2 ===== //
+// ====================== //
 /* Ecrire un algorithme qui vous demande d'entrer une phrase et qui affiche cette phrase à l’envers.*/
 
 // split() place chaque caractère de la chaîne en un tableau
