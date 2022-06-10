@@ -47,3 +47,22 @@ function demandeNombre() {
 // ===== Exercice 6 ===== //
 // ====================== //
 /* Faire un algorithme qui permet de compter le nombre de voyelles dans une phrase saisie par l'utilisateur. Le traitement sera fait à l'aide d'une fonction qui compte les voyelles. */
+
+function chercheVoyelles() {
+  let phrase = prompt("Ecrivez une phrase").toLowerCase();
+  let nbVoyelle = 0;
+
+  for (i = 0; i < phrase.length; i++) {
+    if (
+      phrase[i] == "a" ||
+      phrase[i] == "e" ||
+      phrase[i] == "i" ||
+      phrase[i] == "o" ||
+      phrase[i] == "u" ||
+      phrase[i] == "y"
+    )
+      nbVoyelle = nbVoyelle + 1;
+  }
+
+  console.log("Il y a " + nbVoyelle + " voyelle(s) dans votre phrase");
+}
